@@ -43,10 +43,27 @@ color: rgb(76, 0, 255, 0.603);
  </head>
  <body>
   <div class="container-sm">
-     <div class="container text-center">
+    <div class="container text-center">
      <div class="row"> 
-     <div class="col">
-    <img src=https://cdn-eoljf.nitrocdn.com/vwHRnYbHupNCGThBGElvVYEfMDaeBhlQ/assets/images/optimized/rev-1f47276/printpaws.com/wp-content/uploads/2022/01/dog-canvas-art-one-pet-1-600x600.png alt="Italian Trulli"> 
+      <div class="col-3">
+        <img class="img-fluid" src=https://cdn-eoljf.nitrocdn.com/vwHRnYbHupNCGThBGElvVYEfMDaeBhlQ/assets/images/optimized/rev-1f47276/printpaws.com/wp-content/uploads/2022/01/dog-canvas-art-one-pet-1-600x600.png alt="Italian Trulli"> 
+      </div>
+      <div class="col-9">
+        <h1>Informācija par suņiem</h1>
+        <h2>Suņu šķirnes</h2>
+        <h3>Suņu šķirņu iedalījums</h3> 
+        <p>   Suns jeb mājas suns ir suņu dzimtas plēsējs, kas ir viena no pelēkā vilka (Canis lupus) pasugām. Cilvēks pieradināja vienu no pelēkā vilka pasugām apmēram pirms apmēram 15 000 gadu Centrālāzijā. Mājas suns ir kļuvis par vienu no populārākajiem un visvairāk izmantotajiem mājdzīvniekiem cilvēces vēsturē. Pieradinātais dzīvnieks ātri kļuva par nozīmīgu daļu no cilvēka dzīves visā pasaulē. Piemēram, zinātnieki uzskata, ka bez suņu palīdzības, kas vilka nartas, cilvēki nebūtu šķērsojuši Beringa jūras šaurumu.[1] Ilgo gadu laikā, ko suns pavadījis kopā ar cilvēku, tas ir attīstījis izcilas prāta spējas un spēju interaktīvi komunicēt ar cilvēku. Suņa sociālais raksturs un inteliģence ļauj to izmantot gan medībām, gan citu mājdzīvnieku ganīšanai, gan aizsardzībai, gan cilvēku-invalīdu apkalpošanai,[2] gan vienkārši priekam, gan visdažādākajiem darbiem, kur nepieciešamas suņa iedzimtās spējas.[3] Šobrīd pasaulē ir apmēram 400 miljoni suņu.[4]Ir ļoti daudzas un dažādas suņu šķirnes, un visas šodien zināmās suņu šķirnes, lai gan tās atšķiras izmēros, apspalvojumā un raksturā, netiek uzskatītas par atsevišķām sugām vai pasugām. Tās visas ir Canis lupus familiaris. Šķirnes ir sākts veidot relatīvi nesen, tikai pirms dažiem simtiem gadu, salīdzinot ar tūkstošiem gadu, ko cilvēks un suns pavadījuši kopā. Pirmsākumos suņu veidošanās un attīstība bija pašu suņu un nejaušības "rokās".  </p>
+        <button id="pogaradit" onclick="raditsaturu()">Rādīt vairāk</button>
+          <div id="radamaissaturs">
+            <p> Mūsdienās mājas sunim ir vislielākā dažādība izskatā, izmērā un raksturā, salīdzinot ar pārējiem mājdzīvniekiem, tomēr ģenētiski tie visi ir radinieki pelēkajam vilkam. Suns, lai arī ir draudzīgs mājdzīvnieks, joprojām ir plēsējs un maitēdājs, tam ir labi attīstīta muskulatūra, spēcīgi kauli, un tā fizioloģiskā uzbūve ļauj sunim būt gan sprinterim, gan maratona skrējējam, tā zobi ir piemēroti kampšanai un plēšanai. Ja suns netiek pareizi audzināts, tas var kļūt par sabiedrībai bīstamu dzīvnieku.</p>
+            <button onclick="pasleptsaturu()">Rādīt mazāk</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="row"> 
+    <div class="col-8">
        <table class="table table-striped">
         <tr>
           <th>Šķirne</th>
@@ -71,16 +88,8 @@ color: rgb(76, 0, 255, 0.603);
      </table>
      </table>
     </div>
-    <div class="col">
-      <h1>Informācija par suņiem</h1>
-      <h2>Suņu šķirnes</h2>
-      <h3>Suņu šķirņu iedalījums</h3> 
-      <p>   Suns jeb mājas suns ir suņu dzimtas plēsējs, kas ir viena no pelēkā vilka (Canis lupus) pasugām. Cilvēks pieradināja vienu no pelēkā vilka pasugām apmēram pirms apmēram 15 000 gadu Centrālāzijā. Mājas suns ir kļuvis par vienu no populārākajiem un visvairāk izmantotajiem mājdzīvniekiem cilvēces vēsturē. Pieradinātais dzīvnieks ātri kļuva par nozīmīgu daļu no cilvēka dzīves visā pasaulē. Piemēram, zinātnieki uzskata, ka bez suņu palīdzības, kas vilka nartas, cilvēki nebūtu šķērsojuši Beringa jūras šaurumu.[1] Ilgo gadu laikā, ko suns pavadījis kopā ar cilvēku, tas ir attīstījis izcilas prāta spējas un spēju interaktīvi komunicēt ar cilvēku. Suņa sociālais raksturs un inteliģence ļauj to izmantot gan medībām, gan citu mājdzīvnieku ganīšanai, gan aizsardzībai, gan cilvēku-invalīdu apkalpošanai,[2] gan vienkārši priekam, gan visdažādākajiem darbiem, kur nepieciešamas suņa iedzimtās spējas.[3] Šobrīd pasaulē ir apmēram 400 miljoni suņu.[4]Ir ļoti daudzas un dažādas suņu šķirnes, un visas šodien zināmās suņu šķirnes, lai gan tās atšķiras izmēros, apspalvojumā un raksturā, netiek uzskatītas par atsevišķām sugām vai pasugām. Tās visas ir Canis lupus familiaris. Šķirnes ir sākts veidot relatīvi nesen, tikai pirms dažiem simtiem gadu, salīdzinot ar tūkstošiem gadu, ko cilvēks un suns pavadījuši kopā. Pirmsākumos suņu veidošanās un attīstība bija pašu suņu un nejaušības "rokās".  </p>
-      <button id="pogaradit" onclick="raditsaturu()">Rādīt vairāk</button>
-         <div id="radamaissaturs">
-           <p> Mūsdienās mājas sunim ir vislielākā dažādība izskatā, izmērā un raksturā, salīdzinot ar pārējiem mājdzīvniekiem, tomēr ģenētiski tie visi ir radinieki pelēkajam vilkam. Suns, lai arī ir draudzīgs mājdzīvnieks, joprojām ir plēsējs un maitēdājs, tam ir labi attīstīta muskulatūra, spēcīgi kauli, un tā fizioloģiskā uzbūve ļauj sunim būt gan sprinterim, gan maratona skrējējam, tā zobi ir piemēroti kampšanai un plēšanai. Ja suns netiek pareizi audzināts, tas var kļūt par sabiedrībai bīstamu dzīvnieku.</p>
-           <button onclick="pasleptsaturu()">Rādīt mazāk</button>
-         </div>
+      </div>
+         <div class="col-4">
           <ol>
             <li>Asspalvainais taksis</li>
             <li>Angļu seters</li>
@@ -88,6 +97,7 @@ color: rgb(76, 0, 255, 0.603);
           </ol> 
         <a href="https://rag.lv/">Links uz RAĢ mājas lapu </a>
      </div>
+    </div>
   </body>
 </html>
 
