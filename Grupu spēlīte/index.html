@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the word</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .word {
+            font-size: 24px;
+            letter-spacing: 10px;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: red;
+        }
+        .letters {
+            margin-top: 20px;
+        }
+        .letter {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+        .letter.used {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the word</h1>
+    <div class="word" id="wordDisplay">_ _ _ _ _</div>
+    <div class="letters" id="lettersContainer"></div>
+    <p id="message" class="message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
